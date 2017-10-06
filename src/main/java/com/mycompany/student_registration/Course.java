@@ -1,7 +1,4 @@
-package com.mycompany.assignment1_se3;
-
-
-import com.mycompany.student_registration.Module;
+package com.mycompany.student_registration;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
