@@ -1,8 +1,7 @@
 package com.mycompany.student_registration;
 
 
-import java.time.LocalDate;
-
+import org.joda.time.LocalDate;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -19,14 +18,14 @@ import java.time.LocalDate;
 public class Student {
      private String FirstName;
       private String Surname;
-      private String DateOfBirth;
+      private LocalDate DateOfBirth;
       private int Age;
       public int Id;
       public String Username; 
       private LocalDate lod;
       
       
-      public Student(int studID, String fname, String lname, String DOB, int age)
+      public Student(int studID, String fname, String lname, LocalDate DOB, int age)
       {
           
           FirstName = fname;
@@ -46,7 +45,7 @@ public class Student {
       {
           return Surname;
       }
-      public String getDateOfBirth()
+      public LocalDate getDateOfBirth()
       {
           return DateOfBirth;
       }
