@@ -5,12 +5,19 @@
     <artifactId>Student_registration</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <repositories>
-        <repository>
+    <distributionManagement>
+            <repository>
             <id>myMavenRepo.write</id>
             <url>https://mymavenrepo.com/repo/tVrW4E9w4J8PTEyuBvdN/</url>
         </repository>
-    </repositories>
+        <snapshotRepository>
+               <id>myMavenRepo.write</id>
+               <url>https://mymavenrepo.com/repo/tVrW4E9w4J8PTEyuBvdN/</url>
+        </snapshotRepository>
+            
+    </distributionManagement>
+    
+    
     <dependencies>
       <dependency>
             <groupId>joda-time</groupId>
